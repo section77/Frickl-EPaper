@@ -5,4 +5,4 @@ To run it on the cc2510 board:
 - Compile it using PlatformIO
 - cd to <project_dir>/.pio/build/Generic8051
 - Run objcopy -I ihex -O binary firmware.hex firmware.bin (names may vary)
-- Upload .bin file to the board
+- Upload .bin file to the board using [ESP CC Flasher](https://github.com/section77/ESP_CC_Flasher)
